@@ -1,0 +1,10 @@
+ci_access:
+    groups:
+        - id: "auto-devops-ninja"
+    projects:
+        - id: "auto-devops-ninja/cluster-management"
+        - id: "auto-devops-ninja/helloworld-autodevops"
+
+gitops:
+    manifest_projects:
+        - id : "auto-devops-ninja/gitops-project"
